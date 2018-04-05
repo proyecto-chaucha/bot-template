@@ -37,6 +37,7 @@ Es la base para crear bots de telegram.
 - Cerberus (http://docs.python-cerberus.org/)
 - MongoKat (http://mongokat.readthedocs.io/en/latest/)
 - Pewee (https://github.com/coleifer/peewee)
+- Blitz (http://blitzdb.readthedocs.io/en/latest/)
 
 **Configuración**
 - DotEnv (https://github.com/theskumar/python-dotenv)
