@@ -19,3 +19,6 @@ Es la base para crear bots de telegram.
 - Socket.io (http://python-socketio.readthedocs.io)
 - PonyOrm (https://ponyorm.com/)
 - Cerberus (http://docs.python-cerberus.org/)
+- SimpleJson (https://simplejson.readthedocs.io/en/latest/)
+- HJson (https://github.com/hjson/hjson-py)
+- Emoji (https://github.com/carpedm20/emoji)
