@@ -11,4 +11,5 @@ Es la base para crear bots de telegram.
 - DotEnv (https://github.com/theskumar/python-dotenv)
 - JsonLogger (https://github.com/madzak/python-json-logger)
 - Money (https://github.com/vimeo/py-money)
+- CryptoDome (https://www.pycryptodome.org)
 
