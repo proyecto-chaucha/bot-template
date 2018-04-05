@@ -17,3 +17,4 @@ Es la base para crear bots de telegram.
 - Babel (http://babel.pocoo.org)
 - Redis (https://pypi.python.org/pypi/redis)
 - Socket.io (http://python-socketio.readthedocs.io)
+- PonyOrm (https://ponyorm.com/)
