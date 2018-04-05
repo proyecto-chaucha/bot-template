@@ -14,4 +14,6 @@ Es la base para crear bots de telegram.
 - CryptoDome (https://www.pycryptodome.org)
 - PyChauchaTools (https://github.com/proyecto-chaucha/pychauchatools)
 - Jinja2 (http://jinja.pocoo.org/)
-
+- Babel (http://babel.pocoo.org)
+- Redis (https://pypi.python.org/pypi/redis)
+- Socket.io (http://python-socketio.readthedocs.io)
