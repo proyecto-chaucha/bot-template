@@ -13,4 +13,5 @@ Es la base para crear bots de telegram.
 - Money (https://github.com/vimeo/py-money)
 - CryptoDome (https://www.pycryptodome.org)
 - PyChauchaTools (https://github.com/proyecto-chaucha/pychauchatools)
+- Jinja2 (http://jinja.pocoo.org/)
 
