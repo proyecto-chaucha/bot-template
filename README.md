@@ -18,3 +18,4 @@ Es la base para crear bots de telegram.
 - Redis (https://pypi.python.org/pypi/redis)
 - Socket.io (http://python-socketio.readthedocs.io)
 - PonyOrm (https://ponyorm.com/)
+- Cerberus (http://docs.python-cerberus.org/)
