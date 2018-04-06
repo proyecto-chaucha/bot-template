@@ -3,6 +3,7 @@ Es la base para crear bots de telegram.
 
 ## Requerimientos
 - Python 3.5+
+- Pyenv (https://docs.pipenv.org/)
 
 ## Paquetes Incluidos
 
