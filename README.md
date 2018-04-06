@@ -36,6 +36,7 @@ Es la base para crear bots de telegram.
 - Promises (https://github.com/syrusakbary/promise)
 - Events (http://events.readthedocs.io/en/latest/)
 - PyFileSystem (https://www.pyfilesystem.org/)
+- Natural Language (http://www.nltk.org/)
 
 **Almacenamiento y Validación**
 - Redis (https://pypi.python.org/pypi/redis)
