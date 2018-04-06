@@ -30,6 +30,7 @@ Es la base para crear bots de telegram.
 - Jinja2 (http://jinja.pocoo.org/)
 - Babel (http://babel.pocoo.org)
 - Money (https://github.com/vimeo/py-money)
+- Flufli18n (https://flufli18n.readthedocs.io)
 
 **Almacenamiento y Validación**
 - Redis (https://pypi.python.org/pypi/redis)
