@@ -31,6 +31,7 @@ Es la base para crear bots de telegram.
 - Babel (http://babel.pocoo.org)
 - Money (https://github.com/vimeo/py-money)
 - Flufli18n (https://flufli18n.readthedocs.io)
+- Arrow (https://arrow.readthedocs.io/en/latest/)
 
 **Almacenamiento y Validación**
 - Redis (https://pypi.python.org/pypi/redis)
