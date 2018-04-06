@@ -14,7 +14,6 @@ Es la base para crear bots de telegram.
 **Telegram**
 
 - Telepot (http://telepot.readthedocs.io)
-- Telegram Bot (https://python-telegram-bot.org/)
 - Emoji (https://github.com/carpedm20/emoji)
 
 **Comunicación**
