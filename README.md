@@ -56,3 +56,4 @@ Es la base para crear bots de telegram.
 - The (http://the-py.github.io/the/)
 - Green (https://github.com/CleanCut/green)
 - Flake8 (http://flake8.pycqa.org)
+- FactoryBoy (https://github.com/FactoryBoy/factory_boy)
