@@ -32,14 +32,15 @@ Es la base para crear bots de telegram.
 - Money (https://github.com/vimeo/py-money)
 - Flufli18n (https://flufli18n.readthedocs.io)
 - Arrow (https://arrow.readthedocs.io/en/latest/)
+- Crython (https://github.com/ahawker/crython)
+- Promises (https://github.com/syrusakbary/promise)
 
 **Almacenamiento y Validación**
 - Redis (https://pypi.python.org/pypi/redis)
 - PonyOrm (https://ponyorm.com/)
-- Cerberus (http://docs.python-cerberus.org/)
-- MongoKat (http://mongokat.readthedocs.io/en/latest/)
 - Pewee (https://github.com/coleifer/peewee)
 - Blitz (http://blitzdb.readthedocs.io/en/latest/)
+- Cerberus (http://docs.python-cerberus.org/)
 
 **Configuración**
 - DotEnv (https://github.com/theskumar/python-dotenv)
