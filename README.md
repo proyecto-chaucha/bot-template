@@ -5,12 +5,14 @@ Es la base para crear bots de telegram.
 - Python 3.5+
 - Pyenv (https://docs.pipenv.org/)
 
-## Paquetes Incluidos
+## Paquetes Recomendados
+
 
 **Crypto**
 
 - PyChauchaTools (https://github.com/proyecto-chaucha/pychauchatools)
 - CryptoDome (https://www.pycryptodome.org)
+- Passlib (https://passlib.readthedocs.io/en/stable/)
 
 **Telegram**
 
@@ -23,7 +25,7 @@ Es la base para crear bots de telegram.
 - ParsePy (https://github.com/milesrichardson/ParsePy)
 - Socket.io (http://python-socketio.readthedocs.io)
 - Json API Requests (https://github.com/socialwifi/jsonapi-requests)
-- PyJWT (https://pyjwt.readthedocs.io/en/latest/)
+- Python JWT (https://github.com/davedoesdev/python-jwt)
 
 **Utilidades**
 
@@ -37,6 +39,9 @@ Es la base para crear bots de telegram.
 - Events (http://events.readthedocs.io/en/latest/)
 - PyFileSystem (https://www.pyfilesystem.org/)
 - Natural Language (http://www.nltk.org/)
+- PyPattyrn (https://github.com/tylerlaberge/PyPattyrn)
+- Facades (https://github.com/faif/python-patterns)
+
 
 **Almacenamiento y Validación**
 - Redis (https://pypi.python.org/pypi/redis)
@@ -44,6 +49,7 @@ Es la base para crear bots de telegram.
 - Pewee (https://github.com/coleifer/peewee)
 - Blitz (http://blitzdb.readthedocs.io/en/latest/)
 - Cerberus (http://docs.python-cerberus.org/)
+- DiskCache (http://www.grantjenks.com/docs/diskcache/)
 
 **Configuración**
 - DotEnv (https://github.com/theskumar/python-dotenv)
