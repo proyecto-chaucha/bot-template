@@ -53,7 +53,7 @@ Es la base para crear bots de telegram.
 - DiskCache (http://www.grantjenks.com/docs/diskcache/)
 
 **Configuración**
-- DotEnv (https://github.com/theskumar/python-dotenv)
+- EnvParse (https://github.com/rconradharris/envparse)
 - JsonLogger (https://github.com/madzak/python-json-logger)
 - SimpleJson (https://simplejson.readthedocs.io/en/latest/)
 - HJson (https://github.com/hjson/hjson-py)
