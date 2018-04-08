@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+emoji = "*"
+python-json-logger = "*"
+envparse = "*"
+python-telegram-bot = "*"
+unipath = "*"
+events = "*"
+
+[dev-packages]
+the = "*"
+green = "*"
+"flake8" = "*"
+
+[requires]
+python_version = "3.6"
