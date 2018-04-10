@@ -42,7 +42,7 @@ Es la base para crear bots de telegram.
 - Natural Language (http://www.nltk.org/)
 - PyPattyrn (https://github.com/tylerlaberge/PyPattyrn)
 - Facades (https://github.com/faif/python-patterns)
-
+- PyOTP - 2 Factor Auth (https://github.com/pyotp/pyotp)
 
 **Almacenamiento y Validación**
 - Redis (https://pypi.python.org/pypi/redis)
