@@ -28,26 +28,27 @@ class BaseCommand(object):
 class BaseController(object):
     pass
 
+
 class BaseView(object):
 
-    content = None
+    _content = None
     context = None
     emojize = True
     mode = ParseMode.MARKDOWN
 
     def __init__(self, content: str, context: Update, mode: ParseMode = ParseMode.MARKDOWN, should_emojize: bool = True):
 
-        self.content = content
+        self._content = content
         self.mode = mode
         self.emojize = should_emojize
         self.context = context
 
-    def text(self):
+    def text(self, raw: bool = False):
 
-        if self.emojize:
-            return emojize(self.content)
+        if self.emojize and not raw:
+            return emojize(self._content)
 
-        return self.content
+        return self._content
 
     def render(self):
 
