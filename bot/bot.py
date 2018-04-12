@@ -48,43 +48,46 @@ def init():
         Path(__file__).absolute().ancestor(1)
     )).walk(pattern='*.py')
 
-    for file in files:
+    print(files)
 
-        # Get the filename
-        name = Path(file).components()[-1]
-
-        # Remove extension
-        command = name[:-3]
-
-        if command != '__init__':
-            if command not in disabled:
-                commands.append(command)
-
-    for command in commands:
-
-        # Import the module
-        module = importlib.import_module('bot.commands.%s.controller' % command)
-
-        # Get class and call init method
-        cls = getattr(module, 'Controller')
-        cls().init(dispatcher)
-
-    # Log all errors
-    dispatcher.add_error_handler(error)
-
-    logger.log.info("Started Listening Updates")
-
-    bot_events = BotEvents.instance()
-    bot_events.on_message_received += on_message_received
-    bot_events.on_reply += on_reply
-
-    events = SystemEvents.instance()
-    events.ready()
-
-    updater.start_polling()
-
-    # Run the bot until the you presses Ctrl-C or the process receives SIGINT,
-    # SIGTERM or SIGABRT. This should be used most of the time, since
-    # start_polling() is non-blocking and will stop the bot gracefully.
-    updater.idle()
+    
+    # for file in files:
+    #
+    #     # Get the filename
+    #     name = Path(file).components()[-1]
+    #
+    #     # Remove extension
+    #     command = name[:-3]
+    #
+    #     if command != '__init__':
+    #         if command not in disabled:
+    #             commands.append(command)
+    #
+    # for command in commands:
+    #
+    #     # Import the module
+    #     module = importlib.import_module('bot.commands.%s.controller' % command)
+    #
+    #     # Get class and call init method
+    #     cls = getattr(module, 'Controller')
+    #     cls().init(dispatcher)
+    #
+    # # Log all errors
+    # dispatcher.add_error_handler(error)
+    #
+    # logger.log.info("Started Listening Updates")
+    #
+    # bot_events = BotEvents.instance()
+    # bot_events.on_message_received += on_message_received
+    # bot_events.on_reply += on_reply
+    #
+    # events = SystemEvents.instance()
+    # events.ready()
+    #
+    # updater.start_polling()
+    #
+    # # Run the bot until the you presses Ctrl-C or the process receives SIGINT,
+    # # SIGTERM or SIGABRT. This should be used most of the time, since
+    # # start_polling() is non-blocking and will stop the bot gracefully.
+    # updater.idle()
 

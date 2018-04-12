@@ -9,4 +9,3 @@ import bot.helpers
 import bot.logger
 import bot.stickers
 
-bot = None

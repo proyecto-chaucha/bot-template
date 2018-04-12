@@ -100,6 +100,12 @@ python .
 
 ```
 
+## Editor Recomendado
+
+El editor de código recomendado es PyCharm [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
+edición comunitaria. Otra alternativa es Ninja Ide [http://ninja-ide.org/](http://ninja-ide.org/).
+
+
 ## Paquetes Recomendados
 
 Los siguientes paquetes pueden ser de utilidad para crear un bot.
