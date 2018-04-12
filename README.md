@@ -7,16 +7,36 @@ Es la base para crear bots de telegram.
 - Python 3.5+
 - PipEnv [https://docs.pipenv.org/](https://docs.pipenv.org/)
 
-
 ## (Mac) Instalación con Homebrew
 
 Se utilizarán los comandos de mac con homebrew [https://brew.sh/](https://brew.sh/)
 
+```bash
+
+brew install python && brew install pipenv
+
+```
+
+Asegurar de que el entorno esté configurado en `.bashrc` o `.zshrc`
 
 ```bash
 
-$ brew install python && brew install pipenv
+export LC_ALL=es_ES.UTF-8
+export LANG=es_ES.UTF-8
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+```
+
+### Nota
+
+Si se quiere dejar a python3 como comando predeterminado se puede usar un alias.
+Esto es solamente recomendado si por alguna razón no funciona exportar el `PATH`
+con `/usr/local/bin` antes de los comandos del sistema.
+
+```bash
+
+alias python=python3
+alias pip=pip3
 ```
 
 ## (Unix) Instalacion con Pipsi
@@ -28,16 +48,17 @@ $ brew install python && brew install pipenv
 
 ```bash
 
-$ curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python3 - --src 'git+https://github.com/mitsuhiko/pipsi.git#egg=pipsi'
+curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python3 - --src 'git+https://github.com/mitsuhiko/pipsi.git#egg=pipsi'
 
 ```
 
 Agregar la ruta de *pipsi* al PATH en `.bashrc` o `.zshrc`
 
-
 ```bash
-  
-  export PATH=/home/<user>/.local/bin:$PATH
+
+export LC_ALL=es_ES.UTF-8
+export LANG=es_ES.UTF-8
+export PATH=/home/<user>/.local/bin:$PATH
 
 ```
 
@@ -45,8 +66,8 @@ Instalar *pipenv* y *pew*
 
 ```bash
 
-$ pipsi install pipenv
-$ pipsi install pew
+pipsi install pipenv
+pipsi install pew
 
 ```
 
@@ -56,7 +77,7 @@ Se debe ejecutar el comando
 
 ```bash
 
-$ pipenv install && pipenv shell
+pipenv install && pipenv shell
 
 ```
 
@@ -66,8 +87,8 @@ Luego se debe configuar el archivo `.env`
 
 ```bash
 
-$ cp env.example .env
-$ vim .env
+cp env.example .env
+vim .env
 
 ```
 
@@ -75,10 +96,9 @@ Finalmente ejecutar el bot con
 
 ```bash
 
-$ python .
+python .
 
 ```
-
 
 ## Paquetes Recomendados
 
