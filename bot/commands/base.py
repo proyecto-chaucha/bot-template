@@ -43,13 +43,13 @@ class BaseView(object):
         self.emojize = should_emojize
         self.context = context
 
-    def text(self, raw: bool = False):
+    def content(self, raw: bool = False):
 
         if self.emojize and not raw:
             return emojize(self._content)
 
         return self._content
 
-    def render(self):
+    def render(self, raw: bool = False):
 
-        self.context.message.reply_text(self.text(), parse_mode=self.mode)
+        self.context.message.reply_text(self.content(raw), parse_mode=self.mode)

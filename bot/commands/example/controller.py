@@ -41,7 +41,7 @@ class Controller(BaseController):
 
             bot.send_sticker(update.message.chat.id, Quirquincho.ok)
 
-            events.reply(bot, update, response.text())
+            events.reply(bot, update, response.content())
 
     @classmethod
     def init(cls, dispatcher: Dispatcher):
