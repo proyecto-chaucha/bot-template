@@ -10,13 +10,13 @@ from telegram import Bot, Update
 from telegram.ext import Dispatcher, CommandHandler
 
 
-from bot import logger
 from bot.helpers import Chat
 from bot.stickers import Quirquincho
 from bot.events import BotEvents
 
-from bot.commands.help.view import View
-from bot.commands.help import name
+from bot.commands.example.view import View
+from bot.commands.example import Command
+
 
 class Controller(object):
 
@@ -32,14 +32,13 @@ class Controller(object):
         events.message_received(bot, update)
 
         if Chat.is_private(update):
-            
+
             response = View.help_message(update)
             response.render()
-            
+
             bot.send_sticker(update.message.chat.id, Quirquincho.ok)
 
-            events.reply(bot, update, response.content())
-
+            events.reply(bot, update, response.text())
 
     @classmethod
     def init(cls, dispatcher: Dispatcher):
@@ -53,9 +52,7 @@ class Controller(object):
         dispatcher.add_handler(CommandHandler('?', cls.run))
         dispatcher.add_handler(CommandHandler('ayuda', cls.run))
 
-        logger.log.debug('Help Command Initiated')
-        
         events = BotEvents.instance()
-        events.command_loaded(bot, update, name)
+        events.command_loaded(Command)
 
         return dispatcher

@@ -2,19 +2,22 @@
 # -*- coding: utf-8 -*-
 
 """
-Implements all the command related classes
+Implements Info About the Command
 """
 
-import bots.commands.help.controller
-import bots.commands.help.model
-import bots.commands.help.requester
-import bots.commands.help.validator
-import bots.commands.help.view
+from bot.commands.base import BaseCommand
 
-name = 'help'
 
-# Short Description 
-about = 'Entrega Información de Ayuda'
+class Command(BaseCommand):
 
-# Long
-description = ''
+    name = 'help'
+
+    version = '1.0.0'
+
+    author = 'Camilo Castro'
+
+    # Short Description
+    about = 'Entrega Información de Ayuda'
+
+    # Long
+    description = 'Help Command'

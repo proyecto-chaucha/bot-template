@@ -3,7 +3,7 @@
 
 from events import Events
 from telegram import Bot, Update
-
+from bot.commands.base import BaseCommand
 
 class BaseEvent(Events):
     __singleton__ = None
@@ -34,6 +34,6 @@ class BotEvents(BaseEvent):
 
     def reply(self,  bot: Bot, update: Update, message: str):
         self.on_reply(bot, update, message)
-    
-    def command_loaded(self, bot: Bot, update: Update, name:str = None):
-        self.on_command_loaded(bot, update, name)
+
+    def command_loaded(self, command: BaseCommand):
+        self.on_command_loaded(command.name)

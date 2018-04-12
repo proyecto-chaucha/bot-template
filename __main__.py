@@ -31,6 +31,9 @@ if __name__ == '__main__':
     events = SystemEvents.instance()
     events.on_ready += ready
 
+    # Enter folder name of disabled commands
+    bot.bot.disabled = []
+
     bot.bot.init()
 
     events.done()
