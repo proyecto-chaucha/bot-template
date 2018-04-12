@@ -19,5 +19,5 @@ class Command(BaseCommand):
     # Short Description
     about = 'Entrega Información de Ayuda'
 
-    # Long
-    description = 'Help Command'
+    # Command as used in Telegram
+    handler = '/help'

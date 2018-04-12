@@ -19,6 +19,10 @@ class BaseCommand(object):
     description = ''
     url = ''
 
+    # Canonical Handler used by Telegram
+    # Example /help
+    handler = ''
+
     @staticmethod
     def path():
 
