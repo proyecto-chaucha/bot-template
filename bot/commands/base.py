@@ -6,6 +6,8 @@ Base classes for Commands and Views
 """
 
 from telegram import Bot, Update, ParseMode
+from telegram.ext import Dispatcher
+
 from emoji import emojize
 from unipath import Path
 
@@ -30,7 +32,25 @@ class BaseCommand(object):
 
 
 class BaseController(object):
-    pass
+
+    @classmethod
+    def run(cls, bot: Bot, update: Update):
+        """
+        Runs the command
+        :param bot: Bot Send by dispatcher
+        :param update: Update Context Send by dispatcher
+        :return:
+        """
+        raise NotImplementedError('run method must be implemented')
+
+    @classmethod
+    def init(cls, dispatcher: Dispatcher):
+        """
+        Inits the command
+        :param dispatcher:
+        :return dispatcher:
+        """
+        raise NotImplementedError('init method must be implemented')
 
 
 class BaseView(object):

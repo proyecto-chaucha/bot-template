@@ -21,8 +21,8 @@ from bot.commands.example import Command
 
 class Controller(BaseController):
 
-    @staticmethod
-    def run(bot: Bot, update: Update):
+    @classmethod
+    def run(cls, bot: Bot, update: Update):
         """
         Runs the command
         :param bot: Bot Send by dispatcher
