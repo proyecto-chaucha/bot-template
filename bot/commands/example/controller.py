@@ -14,11 +14,12 @@ from bot.helpers import Chat
 from bot.stickers import Quirquincho
 from bot.events import BotEvents
 
+from bot.commands.base import BaseController
 from bot.commands.example.view import View
 from bot.commands.example import Command
 
 
-class Controller(object):
+class Controller(BaseController):
 
     @staticmethod
     def run(bot: Bot, update: Update):
@@ -30,6 +31,8 @@ class Controller(object):
         """
         events = BotEvents.instance()
         events.message_received(bot, update)
+
+        events = BotEvents.instance()
 
         if Chat.is_private(update):
 

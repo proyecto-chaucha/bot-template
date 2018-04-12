@@ -5,7 +5,7 @@
 Base classes for Commands and Views
 """
 
-from telegram import Update, ParseMode
+from telegram import Bot, Update, ParseMode
 from emoji import emojize
 from unipath import Path
 
@@ -24,6 +24,9 @@ class BaseCommand(object):
 
         return Path(__file__)
 
+
+class BaseController(object):
+    pass
 
 class BaseView(object):
 
