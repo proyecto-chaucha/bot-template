@@ -139,6 +139,7 @@ El bot tiene una estructura que permite crear nuevos comandos de forma simple.
 Cada comando debe tener como mínimo dos archivos.
 
 Estos archivos deben estar dentro de un directorio con el nombre del comando
+dentro de [bot/commands](bot/commands)
 
 `directorio/`
 
