@@ -44,6 +44,12 @@ alias pip=pip3
 - Pipsi  [https://github.com/mitsuhiko/pipsi](https://github.com/mitsuhiko/pipsi)
 - Pew [https://github.com/berdario/pew](https://github.com/berdario/pew)
 
+Asegurar que se tenga instalado virtualenv
+
+```
+pip install --upgrade virtualenv
+```
+
 ### Instalar Pipsi
 
 ```bash
