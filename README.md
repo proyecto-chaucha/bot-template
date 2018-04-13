@@ -143,11 +143,12 @@ También se recomienda seguir patrones de diseño como:
 - Arrow (https://arrow.readthedocs.io/en/latest/)
 - Crython (https://github.com/ahawker/crython)
 - Promises (https://github.com/syrusakbary/promise)
-- Events (http://events.readthedocs.io/en/latest/)
-- PyFileSystem (https://www.pyfilesystem.org/)
-- Unipath (https://github.com/mikeorr/Unipath)
-- Natural Language (http://www.nltk.org/)
-- PyOTP - 2 Factor Auth (https://github.com/pyotp/pyotp)
+- Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/) Sistema para crear y gatillar eventos
+- PyFileSystem [https://www.pyfilesystem.org/](https://www.pyfilesystem.org/): Funciones para manejo de rutas y archivos
+- Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
+- Natural Language [http://www.nltk.org/](http://www.nltk.org/) : Procesamiento de escritura e identificación de conceptos
+- PyOTP [https://github.com/pyotp/pyotp](https://github.com/pyotp/pyotp) : Identificación de 2 factores
+- Keyring [https://github.com/jaraco/keyring](https://github.com/jaraco/keyring): Almacenamiento de contraseñas seguro
 
 ### Almacenamiento y Validación
 
