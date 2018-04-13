@@ -154,7 +154,7 @@ Los archivos opcionales de cada comando son los siguientes:
 - `view.py`: Almacena los mensajes que el bot puede entregar como respuesta
 - `requester.py`: Se encarga de realizar los llamados a los webservices y api rest
 - `model.py`: Se encarga de interactuar con las base de datos u otro tipo de almacenamiento
-- `validators.py`: Se encarga de validar y sanitizar los parámetros de entrada
+- `validator.py`: Se encarga de validar y sanitizar los parámetros de entrada
 
 
 ## Paquetes Recomendados
