@@ -46,15 +46,15 @@ alias pip=pip3
 
 Asegurar que se tenga instalado virtualenv
 
-```
-pip install --upgrade virtualenv
+```bash
+pip3 install --upgrade virtualenv
 ```
 
 ### Instalar Pipsi
 
 ```bash
 
-curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python3 - --src 'git+https://github.com/mitsuhiko/pipsi.git#egg=pipsi'
+curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python3 - --src 'git+https://github.com/mitsuhiko/pipsi.git'
 
 ```
 
@@ -74,6 +74,16 @@ Instalar *pipenv* y *pew*
 
 pipsi install pipenv
 pipsi install pew
+
+```
+
+### Nota
+
+También es posible utilizando pip3 normalmente
+
+```bash
+
+pip3 install pipenv
 
 ```
 
@@ -102,7 +112,7 @@ Finalmente ejecutar el bot con
 
 ```bash
 
-python .
+python3 .
 
 ```
 
@@ -111,6 +121,17 @@ python .
 El editor de código recomendado es PyCharm [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
 edición comunitaria. Otra alternativa es Ninja Ide [http://ninja-ide.org/](http://ninja-ide.org/).
 
+## Paquetes Usados
+Los paquetes utilizados para crear el esqueleto del bot son los siguientes:
+
+- Python Telegram Bot [https://python-telegram-bot.readthedocs.io](https://python-telegram-bot.readthedocs.io): Framework de Bots para Telegram
+- Emoji [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji): Funciones para trabajar con emojis
+
+- Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/) Sistema para crear y gatillar eventos
+- Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
+
+- EnvParse (https://github.com/rconradharris/envparse)
+- JsonLogger (https://github.com/madzak/python-json-logger)
 
 ## Paquetes Recomendados
 
@@ -129,14 +150,14 @@ También se recomienda seguir patrones de diseño como:
 
 ### Telegram
 
-- Python Telegram Bot (https://python-telegram-bot.readthedocs.io)
-- Emoji (https://github.com/carpedm20/emoji)
+- Python Telegram Bot [https://python-telegram-bot.readthedocs.io](https://python-telegram-bot.readthedocs.io): Framework de Bots para Telegram
+- Emoji [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji): Funciones para trabajar con emojis
 
 ### Comunicación
 
-- Requests (http://docs.python-requests.org/)
-- ParsePy (https://github.com/milesrichardson/ParsePy)
-- Socket.io (http://python-socketio.readthedocs.io)
+- Requests [http://docs.python-requests.org/](http://docs.python-requests.org/) : LLamadas a servicios webservice REST
+- ParsePy [https://github.com/milesrichardson/ParsePy](https://github.com/milesrichardson/ParsePy) : API para Parseplatform.org
+- Socket.io [http://python-socketio.readthedocs.io](http://python-socketio.readthedocs.io): Implementación de WebSockets
 - Json API Requests (https://github.com/socialwifi/jsonapi-requests)
 - Python JWT (https://github.com/davedoesdev/python-jwt)
 
@@ -154,16 +175,16 @@ También se recomienda seguir patrones de diseño como:
 - Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
 - Natural Language [http://www.nltk.org/](http://www.nltk.org/) : Procesamiento de escritura e identificación de conceptos
 - PyOTP [https://github.com/pyotp/pyotp](https://github.com/pyotp/pyotp) : Identificación de 2 factores
-- Keyring [https://github.com/jaraco/keyring](https://github.com/jaraco/keyring): Almacenamiento de contraseñas seguro
 
 ### Almacenamiento y Validación
 
 - Redis (https://pypi.python.org/pypi/redis)
 - PonyOrm (https://ponyorm.com/)
-- Pewee (https://github.com/coleifer/peewee)
+- Pewee [https://github.com/coleifer/peewee](https://github.com/coleifer/peewee): ORM simple
 - Blitz (http://blitzdb.readthedocs.io/en/latest/)
-- Cerberus (http://docs.python-cerberus.org/)
+- Cerberus [http://docs.python-cerberus.org/](http://docs.python-cerberus.org/): Validación de Parámetros
 - DiskCache (http://www.grantjenks.com/docs/diskcache/)
+- Keyring [https://github.com/jaraco/keyring](https://github.com/jaraco/keyring): Almacenamiento de contraseñas seguro
 
 ### Configuración
 
