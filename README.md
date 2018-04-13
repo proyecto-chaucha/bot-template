@@ -130,8 +130,8 @@ Los paquetes utilizados para crear el esqueleto del bot son los siguientes:
 - Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/) Sistema para crear y gatillar eventos
 - Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
 
-- EnvParse (https://github.com/rconradharris/envparse)
-- JsonLogger (https://github.com/madzak/python-json-logger)
+- EnvParse [https://github.com/rconradharris/envparse](https://github.com/rconradharris/envparse): Archivos de configuración DotEnv
+- JsonLogger [https://github.com/madzak/python-json-logger](https://github.com/madzak/python-json-logger): Formato del Logger para almacenar Json
 
 ## Paquetes Recomendados
 
@@ -188,8 +188,8 @@ También se recomienda seguir patrones de diseño como:
 
 ### Configuración
 
-- EnvParse (https://github.com/rconradharris/envparse)
-- JsonLogger (https://github.com/madzak/python-json-logger)
+- EnvParse [https://github.com/rconradharris/envparse](https://github.com/rconradharris/envparse): Archivos de configuración DotEnv
+- JsonLogger [https://github.com/madzak/python-json-logger](https://github.com/madzak/python-json-logger): Formato del Logger para almacenar Json
 - SimpleJson (https://simplejson.readthedocs.io/en/latest/)
 - HJson (https://github.com/hjson/hjson-py)
 
