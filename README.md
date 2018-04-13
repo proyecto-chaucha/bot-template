@@ -133,6 +133,29 @@ Los paquetes utilizados para crear el esqueleto del bot son los siguientes:
 - EnvParse [https://github.com/rconradharris/envparse](https://github.com/rconradharris/envparse): Archivos de configuración DotEnv
 - JsonLogger [https://github.com/madzak/python-json-logger](https://github.com/madzak/python-json-logger): Formato del Logger para almacenar Json
 
+## Crear Comandos
+
+El bot tiene una estructura que permite crear nuevos comandos de forma simple.
+Cada comando debe tener como mínimo dos archivos.
+
+Estos archivos deben estar dentro de un directorio con el nombre del comando
+
+`directorio/`
+
+- `__init__.py` : Debe tener clase `Command` Subclase de `BaseCommand`. Almacena datos generales del comando.
+- `controller.py`: Debe tener clase `Controller` Subclase de `BaseController`. Ejecuta la lógica y coordina con los otros componentes.
+
+El bot cargará el comando automáticamente. Si se desea deshabilitar un comando
+se debe agregar el directorio a la lista de comandos deshabilitados en `__main__.py`
+
+Los archivos opcionales de cada comando son los siguientes:
+
+- `view.py`: Almacena los mensajes que el bot puede entregar como respuesta
+- `requester.py`: Se encarga de realizar los llamados a los webservices y api rest
+- `model.py`: Se encarga de interactuar con las base de datos u otro tipo de almacenamiento
+- `validators.py`: Se encarga de validar y sanitizar los parámetros de entrada
+
+
 ## Paquetes Recomendados
 
 Los siguientes paquetes pueden ser de utilidad para crear un bot.
@@ -155,7 +178,7 @@ También se recomienda seguir patrones de diseño como:
 
 ### Comunicación
 
-- Requests [http://docs.python-requests.org/](http://docs.python-requests.org/) : LLamadas a servicios webservice REST
+- Requests [http://docs.python-requests.org/](http://docs.python-requests.org/) : Llamadas a servicios webservice REST
 - ParsePy [https://github.com/milesrichardson/ParsePy](https://github.com/milesrichardson/ParsePy) : API para Parseplatform.org
 - Socket.io [http://python-socketio.readthedocs.io](http://python-socketio.readthedocs.io): Implementación de WebSockets
 - Json API Requests (https://github.com/socialwifi/jsonapi-requests)
