@@ -201,6 +201,8 @@ También se recomienda seguir patrones de diseño como:
 - PyOTP [https://github.com/pyotp/pyotp](https://github.com/pyotp/pyotp) : Identificación de 2 factores
 - Tablib [https://github.com/kennethreitz/tablib](https://github.com/kennethreitz/tablib): Creación de datos tabulados y otros formatos
 - PwnedApi [https://github.com/nikoheikkila/pwnedapi](https://github.com/nikoheikkila/pwnedapi): Permite saber la cantidad de veces que una contraseña fue hackeada.
+- Parse [https://pypi.python.org/pypi/parse](https://pypi.python.org/pypi/parse): Permite extraer información de strings.
+- Docopt [https://github.com/docopt/docopt](https://github.com/docopt/docopt): Facilita el uso de comandos de terminal.
 
 ### Almacenamiento y Validación
 
