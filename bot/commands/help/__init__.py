@@ -10,14 +10,17 @@ from bot.commands.base import BaseCommand
 
 class Command(BaseCommand):
 
+    # Required Properties
     name = 'help'
-
-    version = '1.0.0'
-
-    author = 'Camilo Castro'
 
     # Short Description
     about = 'Entrega Información de Ayuda'
 
     # Command as used in Telegram
+    # Include params if necessary
     handler = '/help'
+
+    # Optional
+    version = '1.0.0'
+
+    author = 'Camilo Castro'

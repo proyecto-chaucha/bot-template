@@ -83,8 +83,8 @@ def init():
         cls().init(dispatcher)
 
         command = importlib.import_module('bot.commands.%s' % folder)
-        command_instance = getattr(command, 'Command')
-        commands[folder] = command_instance
+        cmd = getattr(command, 'Command')
+        commands[folder] = cmd(cmd.name, cmd.about, cmd.handler)
 
     events = SystemEvents.instance()
     events.ready()

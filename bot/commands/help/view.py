@@ -19,7 +19,7 @@ class View(BaseView):
 
         for key in sorted(commands.keys()):
             command = commands[key]
-            command_list += '- {handler} : {about}\n'.format(handler=command.handler, about=command.about)
+            command_list += '- {handler} : {about}\n'.format(handler=command.get_handler(), about=command.get_about())
 
         content = '''
 Hola soy *Quirquincho* <')))~ :thumbs_up:
