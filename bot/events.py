@@ -5,7 +5,9 @@ from events import Events
 from telegram import Bot, Update
 from bot.commands.base import BaseCommand
 
+
 class BaseEvent(Events):
+
     __singleton__ = None
 
     @classmethod
@@ -17,6 +19,7 @@ class BaseEvent(Events):
 
 
 class SystemEvents(BaseEvent):
+
     __events__ = ('on_ready', 'on_done')
 
     def ready(self, **kwargs):
@@ -27,6 +30,7 @@ class SystemEvents(BaseEvent):
 
 
 class BotEvents(BaseEvent):
+
     __events__ = ('on_message_received', 'on_reply', 'on_command_loaded')
 
     def message_received(self, bot: Bot, update: Update):
