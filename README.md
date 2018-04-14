@@ -199,6 +199,8 @@ También se recomienda seguir patrones de diseño como:
 - Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
 - Natural Language [http://www.nltk.org/](http://www.nltk.org/) : Procesamiento de escritura e identificación de conceptos
 - PyOTP [https://github.com/pyotp/pyotp](https://github.com/pyotp/pyotp) : Identificación de 2 factores
+- Tablib [https://github.com/kennethreitz/tablib](https://github.com/kennethreitz/tablib): Creación de datos tabulados y otros formatos
+- PwnedApi [https://github.com/nikoheikkila/pwnedapi](https://github.com/nikoheikkila/pwnedapi): Permite saber la cantidad de veces que una contraseña fue hackeada.
 
 ### Almacenamiento y Validación
 
