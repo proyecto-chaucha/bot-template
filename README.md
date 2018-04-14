@@ -4,7 +4,7 @@ Es la base para crear bots de telegram.
 
 ## Requerimientos
 
-- Python 3.5+
+- Python 3.6+
 - PipEnv [https://docs.pipenv.org/](https://docs.pipenv.org/)
 
 ## (Mac) Instalación con Homebrew
