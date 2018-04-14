@@ -127,7 +127,7 @@ Los paquetes utilizados para crear el esqueleto del bot son los siguientes:
 - Python Telegram Bot [https://python-telegram-bot.readthedocs.io](https://python-telegram-bot.readthedocs.io): Framework de Bots para Telegram
 - Emoji [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji): Funciones para trabajar con emojis
 
-- Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/) Sistema para crear y gatillar eventos
+- Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/): Sistema para crear y gatillar eventos
 - Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
 
 - EnvParse [https://github.com/rconradharris/envparse](https://github.com/rconradharris/envparse): Archivos de configuración DotEnv
@@ -182,19 +182,19 @@ También se recomienda seguir patrones de diseño como:
 - Requests [http://docs.python-requests.org/](http://docs.python-requests.org/) : Llamadas a servicios webservice REST
 - ParsePy [https://github.com/milesrichardson/ParsePy](https://github.com/milesrichardson/ParsePy) : API para Parseplatform.org
 - Socket.io [http://python-socketio.readthedocs.io](http://python-socketio.readthedocs.io): Implementación de WebSockets
-- Json API Requests (https://github.com/socialwifi/jsonapi-requests)
-- Python JWT (https://github.com/davedoesdev/python-jwt)
+- Json API Requests [https://github.com/socialwifi/jsonapi-requests](https://github.com/socialwifi/jsonapi-requests): Funciones para interactuar con servicios web que implementen el estándar Json API.
+- Python JWT [https://github.com/davedoesdev/python-jwt](https://github.com/davedoesdev/python-jwt): Permite generar y validar Jason Web Tokens [https://jwt.io](https://jwt.io)
 
 ### Utilidades
 
-- Jinja2 (http://jinja.pocoo.org/)
-- Babel (http://babel.pocoo.org)
-- Money (https://github.com/vimeo/py-money)
-- Flufli18n (https://flufli18n.readthedocs.io)
-- Arrow (https://arrow.readthedocs.io/en/latest/)
-- Crython (https://github.com/ahawker/crython)
-- Promises (https://github.com/syrusakbary/promise)
-- Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/) Sistema para crear y gatillar eventos
+- Jinja2 [http://jinja.pocoo.org/](http://jinja.pocoo.org/): Sistema de templates
+- Babel [http://babel.pocoo.org](http://babel.pocoo.org): Sistema de traducción e internacionalización
+- Money [https://github.com/vimeo/py-money)](https://github.com/vimeo/py-money): Sistema de transformación de divisas
+- Flufli18n [https://flufli18n.readthedocs.io](https://flufli18n.readthedocs.io): Sistema de traducción
+- Arrow [https://arrow.readthedocs.io/en/latest/](https://arrow.readthedocs.io/en/latest/): Permite mejorar el manejo de hora y fecha
+- Crython [https://github.com/ahawker/crython](https://github.com/ahawker/crython): Permite ejecutar funciones dependiendo de un tiempo similar a cron
+- Promises [https://github.com/syrusakbary/promise](https://github.com/syrusakbary/promise): Implementa el estandar de promesas
+- Events [http://events.readthedocs.io/en/latest/](http://events.readthedocs.io/en/latest/): Sistema para crear y gatillar eventos
 - PyFileSystem [https://www.pyfilesystem.org/](https://www.pyfilesystem.org/): Funciones para manejo de rutas y archivos
 - Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
 - Natural Language [http://www.nltk.org/](http://www.nltk.org/) : Procesamiento de escritura e identificación de conceptos
