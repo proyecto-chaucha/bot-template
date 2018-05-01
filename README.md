@@ -121,6 +121,14 @@ python3 .
 El editor de código recomendado es PyCharm [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
 edición comunitaria. Otra alternativa es Ninja Ide [http://ninja-ide.org/](http://ninja-ide.org/).
 
+## Materiales Recomendados
+
+- [http://goalkicker.com/](http://goalkicker.com/)
+- [Libro de Python](http://goalkicker.com/PythonBook)
+- [Libro de Git](http://goalkicker.com/GitBook)
+- [Libro de Linux](http://goalkicker.com/LinuxBook)
+- [Documentación Bots de Telegram](https://core.telegram.org/bots)
+
 ## Paquetes Usados
 Los paquetes utilizados para crear el esqueleto del bot son los siguientes:
 
