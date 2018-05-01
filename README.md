@@ -222,9 +222,10 @@ También se recomienda seguir patrones de diseño como:
 - HJson (https://github.com/hjson/hjson-py)
 
 
-### Herramientas para Pruebas
+### Herramientas para control de calidad
 
-- The (http://the-py.github.io/the/)
-- Green (https://github.com/CleanCut/green)
-- Flake8 (http://flake8.pycqa.org)
-- FactoryBoy (https://github.com/FactoryBoy/factory_boy)
+- The [http://the-py.github.io/the/](http://the-py.github.io/the/)
+- Green [https://github.com/CleanCut/green](https://github.com/CleanCut/green)
+- Flake8 [http://flake8.pycqa.org](http://flake8.pycqa.org)
+- FactoryBoy [https://github.com/FactoryBoy/factory_boy](https://github.com/FactoryBoy/factory_boy)
+- Mypy [http://mypy.readthedocs.io/en/latest/introduction.html](http://mypy.readthedocs.io/en/latest/introduction.html)
