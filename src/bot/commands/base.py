@@ -28,6 +28,7 @@ class BaseCommand(object):
     description = ''
     url = ''
     info = ''
+    handler_alternatives = []
 
     def __init__(self, name: str, about: str, handler: str):
         self.name = name

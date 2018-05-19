@@ -15,6 +15,7 @@ name = env.str('BOT_NAME', default='bot')
 version = env.str('BOT_VERSION', default='0.0.0')
 
 # Required Keys
+telegram_key = None
 
 if environment != '':
     try:

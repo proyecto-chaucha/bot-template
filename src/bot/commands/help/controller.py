@@ -56,7 +56,6 @@ class Controller(BaseController):
         dispatcher.add_handler(CommandHandler('ayuda', cls.run))
         dispatcher.add_handler(CommandHandler('start', cls.run))
 
-
         events = BotEvents.instance()
         events.command_loaded(Command)
 
