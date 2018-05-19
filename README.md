@@ -121,6 +121,14 @@ python3 .
 El editor de código recomendado es PyCharm [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
 edición comunitaria. Otra alternativa es Ninja Ide [http://ninja-ide.org/](http://ninja-ide.org/).
 
+## Materiales Recomendados
+
+- [http://goalkicker.com/](http://goalkicker.com/)
+- [Libro de Python](http://goalkicker.com/PythonBook)
+- [Libro de Git](http://goalkicker.com/GitBook)
+- [Libro de Linux](http://goalkicker.com/LinuxBook)
+- [Documentación Bots de Telegram](https://core.telegram.org/bots)
+
 ## Paquetes Usados
 Los paquetes utilizados para crear el esqueleto del bot son los siguientes:
 
@@ -199,6 +207,10 @@ También se recomienda seguir patrones de diseño como:
 - Unipath [https://github.com/mikeorr/Unipath](https://github.com/mikeorr/Unipath): Funciones para manejo de rutas
 - Natural Language [http://www.nltk.org/](http://www.nltk.org/) : Procesamiento de escritura e identificación de conceptos
 - PyOTP [https://github.com/pyotp/pyotp](https://github.com/pyotp/pyotp) : Identificación de 2 factores
+- Tablib [https://github.com/kennethreitz/tablib](https://github.com/kennethreitz/tablib): Creación de datos tabulados y otros formatos
+- PwnedApi [https://github.com/nikoheikkila/pwnedapi](https://github.com/nikoheikkila/pwnedapi): Permite saber la cantidad de veces que una contraseña fue hackeada.
+- Parse [https://pypi.python.org/pypi/parse](https://pypi.python.org/pypi/parse): Permite extraer información de strings.
+- Docopt [https://github.com/docopt/docopt](https://github.com/docopt/docopt): Facilita el uso de comandos de terminal.
 
 ### Almacenamiento y Validación
 
@@ -218,9 +230,10 @@ También se recomienda seguir patrones de diseño como:
 - HJson (https://github.com/hjson/hjson-py)
 
 
-### Herramientas para Pruebas
+### Herramientas para control de calidad
 
-- The (http://the-py.github.io/the/)
-- Green (https://github.com/CleanCut/green)
-- Flake8 (http://flake8.pycqa.org)
-- FactoryBoy (https://github.com/FactoryBoy/factory_boy)
+- The [http://the-py.github.io/the/](http://the-py.github.io/the/)
+- Green [https://github.com/CleanCut/green](https://github.com/CleanCut/green)
+- Flake8 [http://flake8.pycqa.org](http://flake8.pycqa.org)
+- FactoryBoy [https://github.com/FactoryBoy/factory_boy](https://github.com/FactoryBoy/factory_boy)
+- Mypy [http://mypy.readthedocs.io/en/latest/introduction.html](http://mypy.readthedocs.io/en/latest/introduction.html)
