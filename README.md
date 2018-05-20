@@ -7,6 +7,22 @@ Es la base para crear bots de telegram.
 - Python 3.6+
 - PipEnv [https://docs.pipenv.org/](https://docs.pipenv.org/)
 
+## Instalación con Docker
+
+Se ha utilizado [Docker Compose](https://docs.docker.com/compose/install/#install-compose) para poder
+crear un ambiente de desarrollo.
+
+### Instalación y Ejecución
+
+```sh
+docker-compose build
+
+docker-compose up -d
+```
+
+Ver logs:  `docker logs telegram-bot`
+
+
 ## (Mac) Instalación con Homebrew
 
 Se utilizarán los comandos de mac con homebrew [https://brew.sh/](https://brew.sh/)
@@ -99,7 +115,10 @@ pipenv install && pipenv shell
 
 Para poder instalar las dependencias y habilitar el entorno.
 
+## Configurar Env
+
 Luego se debe configuar el archivo `.env`
+con las claves dadas por el [Botfather](https://core.telegram.org/bots)
 
 ```bash
 
